@@ -96,6 +96,26 @@ For the 210-day scenario, **XGBoost** achieved the best overall test performance
 - **ROC-AUC:** 0.7272
 - **Log Loss:** 0.5898
 
+## Results Visualization
+
+### Final Test Performance Comparison
+
+The final test results show that the **210-day labeling scenario with XGBoost** achieved the strongest overall performance across the three evaluated retention scenarios.
+
+![Model Comparison](images/model_comparison.png)
+
+### SHAP Feature Importance — 210-Day Scenario
+
+Global SHAP feature importance was used to identify the features with the highest contribution to model predictions in the 210-day scenario.
+
+![SHAP Feature Importance](images/shap_feature_importance_210d.png)
+
+### Confusion Matrix — XGBoost 210-Day Scenario
+
+The confusion matrix summarizes the final classification results of the selected XGBoost model on the 210-day test dataset.
+
+![Confusion Matrix](images/confusion_matrix_210d.png)
+
 ## Tools & Technologies
 
 - Python
